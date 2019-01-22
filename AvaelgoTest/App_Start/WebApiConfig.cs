@@ -9,7 +9,7 @@ namespace AvaelgoTest
             // Web API configuration and services
 
             // Web API routes
-            config.MapHttpAttributeRoutes();
+            config.MapHttpAttributeRoutes(); 
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
